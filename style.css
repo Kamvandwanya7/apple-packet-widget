@@ -13,6 +13,9 @@ body {
     width: 50%;
 }
 
-
-
- 
+input{
+    float: right;
+}
+button{
+    float: right;
+}

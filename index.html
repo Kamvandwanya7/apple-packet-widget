@@ -11,32 +11,35 @@
 
 <body>
     <div class="container">
-      <section class="apple_number">
-        <h2>How many apples do you need</h2>
-        <h3>How many packets can you make</h3>
-        <div>Apples count
-            <input type="number" class="apples_count apple">
-        </div><br>
+        <section class="apple_number">
+            <h2>Apple packet Planner</h2>
+            <h3>How many packets can you make</h3>
+            <div>Apples count
+                <input type="number" class="apples_count apple">
+            </div><br>
 
-        <div>packet size
-            <input type="number" class="packet_size apple">
-        </div><br>
-        <button>Calculate</button>
-        <h4>#of packets</h4>
-    </section>
+            <div>packet size
+                <input type="number" class="packet_size apple">
+            </div><br>
+            <button class="calculate_packets">Calculate packets</button>
+            <h4 class="pockets">#of packets</h4>
+        </section><br>
 
-    <section>
-     <h2>Apples do you need?</h2>
-     <div>Packets
-         <input type="number" class="packets apple">
-     </div><br>
-    <div>Packet size
-        <input type="number" class="packet-size apple">
-    </div><br>
-    <button>Calculate</button>
-    </section>
 
-    <section>
+        <section>
+            <h2>Apples do you need?</h2>
+            <div>Packets
+                <input type="number" class="packets apple">
+            </div><br>
+            <div>Packet size
+                <input type="number" class="packet-size apple">
+            </div><br>
+            <button class="calculate_apples">Calculate apples needed</button>
+            <h4 class="apples">#of apples</h4>
+        </section><br 
+        
+
+        <section>
         <h2>Apple packet price planner</h2>
         <h3>Apple buying data</h3>
         <div>Cost price for a box of apples
@@ -56,25 +59,28 @@
         </div><br>
         <button class="calculate">Calculate</button>
 
-         
+
         <h3>Apple price calculations</h3>
         <div>Number of packets
-            <h4> </h4>
+            <h4 class="appleNo"> </h4>
         </div>
 
         <div>Cost price per appl
-            <h4> </h4>
+            <h4 class="applePrice"> </h4>
         </div>
 
         <div>Cost price per packet
-            <h4> </h4>
+            <h4 class="packetPrice"> </h4>
         </div>
 
         <div>Recommended packet price
-            <h4> </h4>
+            <h4 class="appleProfit"> </h4>
         </div>
         </section>
     </div>
+    <script src="apple.js"></script>
+    <script src="apple.dom.js"></script>
+    <script src="apple.tests.js"></script>
 </body>
 
 </html>
